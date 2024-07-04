@@ -2,9 +2,9 @@
   "name": "webgl",
   "version": "1.0.0",
   "description": "",
-  "main": "helloworld.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PHM1605/webgl/issues"
   },
-  "homepage": "https://github.com/PHM1605/webgl#readme"
+  "homepage": "https://github.com/PHM1605/webgl#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
